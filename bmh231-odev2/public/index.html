@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bozok Etkinlik Panosu</title>
+  <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+  <header class="ust-bant">
+    <a href="#" class="logo">Bozok Etkinlik</a>
+    <nav>
+      <ul>
+        <li><a href="#liste">Etkinlikler</a></li>
+        <li><a href="#oner">Etkinlik Öner</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="liste">
+      <h1>Yaklaşan Etkinlikler</h1>
+
+      <div class="arac-cubugu">
+        <div class="filtreler">
+          <button type="button" class="filtre-btn secili" data-tur="tumu">Tümü</button>
+          <button type="button" class="filtre-btn" data-tur="atolye">Atölye</button>
+          <button type="button" class="filtre-btn" data-tur="soylesi">Söyleşi</button>
+          <button type="button" class="filtre-btn" data-tur="topluluk">Topluluk</button>
+        </div>
+        <div class="arama">
+          <label for="arama-kutusu">Etkinlik ara:</label>
+          <input type="search" id="arama-kutusu" placeholder="örn. git">
+        </div>
+      </div>
+
+      <p id="durum-mesaji"></p>
+      <div id="kartlar" class="kartlar"></div>
+    </section>
+
+    <section id="oner">
+      <h2>Etkinlik Öner</h2>
+      <form id="oneri-formu" novalidate>
+        <div class="form-satir">
+          <label for="ad">Etkinlik adı</label>
+          <input type="text" id="ad" name="ad">
+        </div>
+        <div class="form-satir">
+          <label for="tarih">Tarih</label>
+          <input type="date" id="tarih" name="tarih">
+        </div>
+        <div class="form-satir">
+          <label for="eposta">E-posta</label>
+          <input type="email" id="eposta" name="eposta">
+        </div>
+        <button type="submit">Gönder</button>
+        <div id="form-mesaj"></div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Bozok Etkinlik - İbrahim Can Kaya</p>
+  </footer>
+
+  <script src="betik.js"></script>
+</body>
+</html>
