@@ -1,0 +1,11 @@
+{
+  "name": "bmh231-odev2",
+  "version": "1.0.0",
+  "description": "Kampus Etkinlik Panosu - BMH231 Odev 2",
+  "main": "sunucu.js",
+  "scripts": {
+    "start": "node sunucu.js"
+  },
+  "author": "Ibrahim Can Kaya",
+  "license": "MIT"
+}
