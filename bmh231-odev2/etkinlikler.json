@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "baslik": "Blockchain Bozok: Blockchain'e Giriş Atölyesi",
+    "tur": "atolye",
+    "tarih": "2026-11-10",
+    "yer": "Mühendislik Fakültesi EZ-03",
+    "kontenjan": 30
+  },
+  {
+    "id": 2,
+    "baslik": "IEEE Bozok Tanışma Toplantısı",
+    "tur": "topluluk",
+    "tarih": "2026-11-12",
+    "yer": "Mühendislik Fakültesi EZ-03",
+    "kontenjan": 120
+  },
+  {
+    "id": 3,
+    "baslik": "IEEE Bozok: Yapay Zekâ ve Gelecek Söyleşisi",
+    "tur": "soylesi",
+    "tarih": "2026-11-18",
+    "yer": "Erdoğan Akdağ Kongre ve Kültür Merkezi",
+    "kontenjan": 200
+  },
+  {
+    "id": 4,
+    "baslik": "IEEE Bozok: Git ve GitHub Atölyesi",
+    "tur": "atolye",
+    "tarih": "2026-11-20",
+    "yer": "Mühendislik Fakültesi EZ-04",
+    "kontenjan": 25
+  },
+  {
+    "id": 5,
+    "baslik": "Teknofest Kulübü Takım Kurma Buluşması",
+    "tur": "topluluk",
+    "tarih": "2026-11-24",
+    "yer": "Mühendislik Fakültesi EZ-03",
+    "kontenjan": 80
+  },
+  {
+    "id": 6,
+    "baslik": "Teknofest Kulübü: Yarışmaya Nasıl Hazırlanılır? Söyleşisi",
+    "tur": "soylesi",
+    "tarih": "2026-11-26",
+    "yer": "Erdoğan Akdağ Kongre ve Kültür Merkezi",
+    "kontenjan": 150
+  },
+  {
+    "id": 7,
+    "baslik": "Tiyatro Kulübü Dönem Sonu Gösterisi",
+    "tur": "topluluk",
+    "tarih": "2026-12-10",
+    "yer": "Erdoğan Akdağ Kongre ve Kültür Merkezi",
+    "kontenjan": 300
+  }
+]
